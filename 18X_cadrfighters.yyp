@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "378f6807-cab6-4045-9e2e-ebae9545fc99",
+            "Value": {
+                "id": "556911a8-2a16-4494-a987-a32686eca71a",
+                "resourcePath": "objects\\o_card\\o_card.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3d3b2aff-c04a-4ab4-91bf-058e66872ebf",
             "Value": {
                 "id": "01f5ec87-bfc1-44d1-b27b-d973a43a558f",
