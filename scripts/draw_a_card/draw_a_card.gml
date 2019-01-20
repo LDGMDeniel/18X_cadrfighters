@@ -18,5 +18,5 @@ for(var i = 1; i <= 9; i += 1){
 if(filled==0){
  return 0;
 }else{
- return result[irandom(filled)];
+ return result[irandom(filled-1)];
 }
