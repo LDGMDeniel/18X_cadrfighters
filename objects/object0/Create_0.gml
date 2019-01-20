@@ -5,11 +5,11 @@ for(var col = 1; col <= 4; col += 1){
 		setup[col,row]=4;
 	}
 }
-setup[2,1]=gd("chars",global.party[1,1],"kmodel");
-setup[2,2]=gd("c",global.party[1,2],"kmodel");
-setup[2,3]=gd("c",global.party[1,3],"kmodel");
-setup[4,1]=gd("c",global.party[3,1],"kmodel");
-setup[4,3]=gd("c",global.party[3,2],"kmodel");
+setup[2,1]=gd("chars",global.party[1,1],"cmodel");
+setup[2,2]=gd("c",global.party[1,2],"cmodel");
+setup[2,3]=gd("c",global.party[1,3],"cmodel");
+setup[4,1]=gd("c",global.party[3,1],"cmodel");
+setup[4,3]=gd("c",global.party[3,2],"cmodel");
 //выше - заглушка для формирования поля боя
 //заглушка для формирования ряда карт
 for(var i = 1; i <= 9; i += 1){
