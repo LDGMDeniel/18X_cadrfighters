@@ -1,13 +1,15 @@
 /// @description init
 
 //переменные
-ATB_timer=0;
-ATB_pause=false;
-ATB_next=1;
+ATB_timer=0; //текущее время
+ATB_pause=false; //остановить таймер
+ATB_next=1; //когда следующая пауза
 ATB_status="selecting";
 //^selecting - может выбрать персонажа или карту, aiming - может отменить выбор карты, или выбрать цель, working - ничего делать нельзя, выполняется ход, или думает A.I.
-ATB_who=1;
-ATB_selected=0;
+ATB_who=1; //кто ходит, какая партия
+ATB_selected=0; //выбранный перс
+ATB_card=0; //выбрання карта
+ATB_excard=0; //что было выбрано до того
 
 randomize();
 //заглушка для формирования поля боя
@@ -57,4 +59,5 @@ for(var i = 1; i <= 9; i += 1){
 	}
  a_card[i]=instance_create_depth(xoffset+80*i,615,0,o_card);
  a_card[i].associated=t;
+	a_card[i].mynumber=i;
 }

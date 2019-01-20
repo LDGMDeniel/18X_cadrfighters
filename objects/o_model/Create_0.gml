@@ -7,6 +7,6 @@ for(var i=1;i<=6;i+=1){
 }
 hand[0]=0;
 next_on=1;
-dealt=false;
+lastdealt=0;
 
 alarm_set(0,1);

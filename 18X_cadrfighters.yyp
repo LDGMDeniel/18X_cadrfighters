@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "5275fbcb-e6a6-413c-b7a8-2d4979705694",
+            "Value": {
+                "id": "c2292197-5373-4cd0-8f35-83b0ba6615be",
+                "resourcePath": "scripts\\hit_me\\hit_me.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5b797a6b-1da1-409c-856e-ec0befed9aca",
             "Value": {
                 "id": "6484ae56-c207-4fd6-ad8e-4fd4e4480d28",

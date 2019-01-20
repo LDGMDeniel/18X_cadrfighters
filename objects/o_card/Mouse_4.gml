@@ -3,4 +3,5 @@
 
 if(associated!=0){
 	show_message("Экспонат \""+kname+"\" не торгать.");
+	object0.ATB_card=mynumber;
 }
