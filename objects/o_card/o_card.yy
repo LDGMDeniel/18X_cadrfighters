@@ -1,38 +1,38 @@
 {
-    "id": "c47e36d2-cdcc-469c-be63-1403b35835ae",
+    "id": "378f6807-cab6-4045-9e2e-ebae9545fc99",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object0",
+    "name": "o_card",
     "eventList": [
         {
-            "id": "9df263e5-f056-4c3c-9f9e-3fa65a3f3813",
+            "id": "5d0d3c12-e7ce-426c-aed2-d169ea27a709",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "378f6807-cab6-4045-9e2e-ebae9545fc99"
+        },
+        {
+            "id": "4f2c42ba-5005-44b5-819d-d411e217d3a6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "c47e36d2-cdcc-469c-be63-1403b35835ae"
+            "m_owner": "378f6807-cab6-4045-9e2e-ebae9545fc99"
         },
         {
-            "id": "c9a651ea-1d33-430a-a03c-1cb9b71b012b",
+            "id": "6bbcf813-2cbd-43cc-a609-5dfbf44910cc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "c47e36d2-cdcc-469c-be63-1403b35835ae"
-        },
-        {
-            "id": "e713adea-f288-44b8-96f7-5bb689e44239",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "c47e36d2-cdcc-469c-be63-1403b35835ae"
+            "m_owner": "378f6807-cab6-4045-9e2e-ebae9545fc99"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -52,9 +52,22 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": [
-        
+        {
+            "id": "02e5eb7a-7b6c-4d5c-8fe7-523f90c58472",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "image_speed",
+            "varType": 0
+        }
     ],
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "333731ca-139b-4bc1-9cf8-972c578125ff",
     "visible": true
 }
