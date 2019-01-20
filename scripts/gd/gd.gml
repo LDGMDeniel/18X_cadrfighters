@@ -34,6 +34,7 @@ switch (argument0){
  case "item": case "i": case 2:
 		maxkey=10;
 		switch(argument2){	
+			case "all": key=0; break;      //выдать весь массив
 			case "itype": key=1 break;     //тип предмета - буква, (w/a/d) оружие, броня, устройство
 			case "iname": key=2 break;     //название - строка, отображаемое имя
 			case "iequip": key=3 break;    //цвет - буква(r/g/b), цветовое ограничение экипировки
@@ -63,6 +64,7 @@ switch (argument0){
 	case "card": case "k": case 3:
 		maxkey=6;
 	 switch(argument2){	
+			case "all": key=0; break;      //выдать весь массив
 			case "kname": key=1 break;     //название - строка, отображаемое имя
 			case "ktype": key=2 break;     //тип карт - буква, (a/d/r/???) атака, защита, перезарядка и прочие действия
 			case "karg1": key=3 break;     //главный стат - число, показатель полезности карты, для разных типов - разная оценка силы

@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "o_card",
     "eventList": [
-        
+        {
+            "id": "5d0d3c12-e7ce-426c-aed2-d169ea27a709",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "378f6807-cab6-4045-9e2e-ebae9545fc99"
+        },
+        {
+            "id": "4f2c42ba-5005-44b5-819d-d411e217d3a6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "378f6807-cab6-4045-9e2e-ebae9545fc99"
+        },
+        {
+            "id": "6bbcf813-2cbd-43cc-a609-5dfbf44910cc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "378f6807-cab6-4045-9e2e-ebae9545fc99"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
