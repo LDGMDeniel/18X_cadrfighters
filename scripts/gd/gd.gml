@@ -5,7 +5,7 @@ switch (argument0){
 	
  //chars/c/1 - gets cid and key, returns character.key
  case "chars": case "c": case 1:
-		maxkey=7;
+		maxkey=8;
 		switch(argument2){
 			case "all": key=0; break;      //выдать весь массив
 			case "cname": key=1; break;    //имя - строка, отображаемое имя
@@ -15,6 +15,7 @@ switch (argument0){
 			case "cweapon": key=5; break;  //оружие - число, ссылка на массив предметов
 			case "carmor": key=6; break;   //броня - число, ссылка на массив предметов
 			case "cdevice": key=7; break;  //девайс - число, ссылка на массив предметов
+			case "chpnow": key=8; break;   //здоровье - число, текущая прочность брони
 			default: key=argument2; break; //или прямая ссылка на поле числом
 		}
 		if(key==0){

@@ -1,6 +1,7 @@
 /// @description association check
 
 if(ls!=associated){
+	//если модель поменяла карту которую она представляет, или кто-то её ткнул(ls=-1)
 	if(associated==0){
 		image_index=0;
 	}else{	 
@@ -11,7 +12,10 @@ if(ls!=associated){
 		cweapon=gd("c",associated,"cweapon");;
 		carmor=gd("c",associated,"carmor");;
 		cdevice=gd("c",associated,"cdevice");;
+		chpnow=gd("c",associated,"chpnow");;
 		image_index=cmodel;
 	}
+}else{
+	//делать что-то? нее, лень!
 }
 ls=associated;

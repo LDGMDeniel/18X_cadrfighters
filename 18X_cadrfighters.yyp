@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "3f2debdf-2815-4063-98a9-9a8ce967f572",
+            "Value": {
+                "id": "892f31ba-5d90-4636-8564-7183e25a5eee",
+                "resourcePath": "scripts\\draw_a_card\\draw_a_card.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4e1be80a-c408-42ca-9762-5c0b3c8813f3",
             "Value": {
                 "id": "135b4257-757f-43d5-82db-9c792c4f19df",
@@ -233,7 +241,8 @@
     ],
     "script_order": [
         "f7217f67-661b-4cbf-9b59-7f30b85cec8e",
-        "3bb93e30-d588-41d6-9471-8b6375e5ee40"
+        "3bb93e30-d588-41d6-9471-8b6375e5ee40",
+        "3f2debdf-2815-4063-98a9-9a8ce967f572"
     ],
     "tutorial": ""
 }
