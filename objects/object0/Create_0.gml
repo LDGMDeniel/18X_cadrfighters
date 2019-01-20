@@ -47,17 +47,11 @@ for(var col = 3; col <= 4; col += 1){
 
 //расстановка карт
 xoffset=70;
-var t=0;
-var ta=array_create(3);
-ta[1]="w"; ta[2]="a"; ta[3]="d";
 for(var i = 1; i <= 9; i += 1){
 	if(i>3){
 		xoffset=90;
-		t=0;
-	}else{
-		t=gd(ta[i],1,"icard");
 	}
  a_card[i]=instance_create_depth(xoffset+80*i,615,0,o_card);
- a_card[i].associated=t;
+ a_card[i].associated=0;
 	a_card[i].mynumber=i;
 }

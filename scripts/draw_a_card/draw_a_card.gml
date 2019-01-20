@@ -17,7 +17,8 @@ if(lastdealt!=object0.ATB_timer){
 		}
 	}
 	if(dac_filled!=0 and hand[0]<6){
-		hand[hand[0]+1]=dac_cards_array[irandom(dac_filled-1)];
+		hand[0]+=1;
+		hand[hand[0]]=dac_cards_array[irandom(dac_filled-1)];
 	}
 	lastdealt=object0.ATB_timer;
 }

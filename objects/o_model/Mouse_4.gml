@@ -8,6 +8,7 @@ if(object0.ATB_pause and associated!=0){
 	and object0.ATB_timer==next_on){
 		//указать что был выбран
 		object0.ATB_selected=mypos;
+		object0.ATB_card=0;
 		//тянуть карту
 		draw_a_card();
 		//отрисовать карты, точнее ткнуть их
@@ -22,6 +23,6 @@ if(object0.ATB_pause and associated!=0){
 		}
 	}
 	if(object0.ATB_status=="aiming"){
-		hit_me(mypos);
+		hit_me();
 	}
 }

@@ -6,6 +6,9 @@ if(!ATB_pause){
 if(ATB_card!=ATB_excard){
 	if(ATB_card!=0){
 		a_card[ATB_card].y-=10;
+		ATB_status="aiming";
+	}else{
+		ATB_status="selecting";
 	}
 	if(ATB_excard!=0){
 		a_card[ATB_excard].y+=10;
