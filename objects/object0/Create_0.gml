@@ -1,4 +1,5 @@
 /// @description init
+randomize();
 init_array();
 for(var col = 1; col <= 4; col += 1){
  for(var row = 1; row <= 3; row += 1){
@@ -17,6 +18,7 @@ for(var i = 1; i <= 9; i += 1){
 		case 1: setup1[i]=global.card[1,5]; break;
 		case 2: setup1[i]=global.card[2,5]; break;
 		case 3: setup1[i]=global.card[3,5]; break;
+		case 4: setup1[i]=random_card(global.party[1,1]); break;
 	 default: setup1[i]=9;
 	}
 }
