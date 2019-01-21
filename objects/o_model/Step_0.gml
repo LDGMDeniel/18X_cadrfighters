@@ -13,6 +13,7 @@ if(ls!=associated){
 		carmor=gd("c",associated,"carmor");;
 		cdevice=gd("c",associated,"cdevice");;
 		chpnow=gd("c",associated,"chpnow");;
+		maxhp=gd("a",associated,"ahp");;
 		image_index=cmodel;
 	}
 }else{

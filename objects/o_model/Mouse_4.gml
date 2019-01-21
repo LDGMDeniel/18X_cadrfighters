@@ -2,12 +2,13 @@
 
 //по персонажам можно тыкать только когда ATB на паузе
 if(object0.ATB_pause and associated!=0){
-	//если можно выбирать, то надо проверить своя ли карта и можно ли ей завляться
+	//если можно выбирать, то надо проверить своя ли карта и можно ли ей заявляться
 	if(object0.ATB_status=="selecting"
 	and object0.ATB_who==owner
 	and object0.ATB_timer==next_on){
 		//указать что был выбран
-		object0.ATB_selected=mypos;
+		object0.ATB_s[0]=s[0];
+		object0.ATB_s[1]=s[1];
 		object0.ATB_card=0;
 		//тянуть карту
 		draw_a_card();
